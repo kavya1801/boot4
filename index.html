@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+            Navbar
+      </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="bootstrap.min.css"/>
+      <link rel="stylesheet" href="style.css"/>
+
+      <style>
+        *{
+            box-sizing: border-box;
+          }
+          body{
+              background-image: url(pic/bg.jpg);
+              background-size: 120%;
+          }
+          #tt{
+              background-color: rgba(0,0,0,0.3);
+          }
+          #form{
+              padding-left: 850px;
+          }
+      </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Gallery</a>
+              <a class="dropdown-item" href="#">News</a>
+              <a class="dropdown-item" href="#">Podcast</a>
+              <a class="dropdown-item" href="#">Interview</a>
+              <a class="dropdown-item" href="#">Review</a>
+            </div>
+          </li> 
+        </ul>
+        <form class="d-flex" id="form">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
+      <br>
+      <div class="container text-center bg-light">
+        <h1>INTERNET</h1>
+      </div>
+      <br/>
+      <center>
+        <img src="pic/int.jpg" width="37%"/>
+      </center> <br/>
+      <div class="container fs-4 text-white" id="tt">
+        <ul>
+          <li>The Internet (or internet) is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing.</li>
+          <li>The origins of the Internet date back to the development of packet switching and research commissioned by the United States Department of Defense in the 1960s to enable time-sharing of computers.[1] The primary precursor network, the ARPANET, initially served as a backbone for interconnection of regional academic and military networks in the 1970s. </li>
+          <li>The funding of the National Science Foundation Network as a new backbone in the 1980s, as well as private funding for other commercial extensions, led to worldwide participation in the development of new networking technologies, and the merger of many networks.</li>
+          <li>The linking of commercial networks and enterprises by the early 1990s marked the beginning of the transition to the modern Internet,[3] and generated a sustained exponential growth as generations of institutional, personal, and mobile computers were connected to the network.</li>
+          <li>Although the Internet was widely used by academia in the 1980s, commercialization incorporated its services and technologies into virtually every aspect of modern life.</li>
+        </ul>
+      </div>
+  </body>
+</html>
